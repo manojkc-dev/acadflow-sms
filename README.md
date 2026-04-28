@@ -77,37 +77,6 @@ cd AcadFlow
 1. Place the project in your web server directory (e.g., `htdocs` for XAMPP)
 2. Open your browser and navigate to: `http://localhost/AcadFlow`
 
-## Default Login Credentials
-
-The system comes with pre-configured users:
-
-### Admin Account
-- **Email**: admin@acadflow.com
-- **Password**: password
-- **Role**: Admin
-
-### Teacher Accounts
-- **Email**: john.smith@acadflow.com
-- **Password**: password
-- **Role**: Teacher
-
-- **Email**: sarah.johnson@acadflow.com
-- **Password**: password
-- **Role**: Teacher
-
-### Student Accounts
-- **Email**: mike.davis@acadflow.com
-- **Password**: password
-- **Role**: Student
-
-- **Email**: emily.wilson@acadflow.com
-- **Password**: password
-- **Role**: Student
-
-- **Email**: david.brown@acadflow.com
-- **Password**: password
-- **Role**: Student
-
 ## Project Structure
 
 ```
