@@ -74,20 +74,25 @@ INSERT INTO users (first_name, last_name, email, password, role) VALUES
 
 -- Insert sample teachers
 INSERT INTO users (first_name, last_name, email, password, role) VALUES 
-('John', 'Smith', 'john.smith@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'teacher'),
-('Sarah', 'Johnson', 'sarah.johnson@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'teacher');
+('Krishna', 'Professor', 'krishna.professor@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'teacher'),
+('Radha', 'Instructor', 'radha.instructor@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'teacher');
 
 -- Insert sample students
 INSERT INTO users (first_name, last_name, email, password, role) VALUES 
-('Mike', 'Davis', 'mike.davis@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
-('Emily', 'Wilson', 'emily.wilson@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
-('David', 'Brown', 'david.brown@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student');
+('Ram', 'Student', 'ram.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
+('Laxman', 'Wilson', 'laxman.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
+('Sita', 'Student', 'sita.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student');
 
 -- Insert sample courses
 INSERT INTO courses (course_code, course_name, description, teacher_id) VALUES 
-('MATH101', 'Introduction to Mathematics', 'Basic mathematics concepts and problem solving', 2),
-('ENG101', 'English Composition', 'Writing and communication skills', 3),
-('SCI101', 'General Science', 'Introduction to scientific methods and concepts', 2);
+('BIT101', 'Python Programming', 'Basic Python programming concepts and problem solving', 2),
+('BIT102', 'React.js Fundamentals', 'Introduction to React.js and component-based development', 3),
+('BIT103', 'PostgreSQL', 'Introduction to PostgreSQL and database management', 2),
+('BIT104', 'PHP', 'Introduction to PHP and web development', 3),
+('BIT105', 'HTML & CSS', 'Introduction to HTML and CSS for web design', 2),
+('BIT106', 'MySQL', 'Introduction to MySQL and database management', 3),
+('BIT107', 'JavaScript', 'Introduction to JavaScript programming and web development', 2),
+('BIT108', 'Data Structures', 'Introduction to data structures and algorithms', 3);
 
 -- Enroll students in courses
 INSERT INTO enrollments (student_id, course_id) VALUES 
