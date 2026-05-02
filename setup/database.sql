@@ -80,7 +80,7 @@ INSERT INTO users (first_name, last_name, email, password, role) VALUES
 -- Insert sample students
 INSERT INTO users (first_name, last_name, email, password, role) VALUES 
 ('Ram', 'Student', 'ram.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
-('Laxman', 'Wilson', 'laxman.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
+('Laxman', 'Student', 'laxman.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student'),
 ('Sita', 'Student', 'sita.student@acadflow.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'student');
 
 -- Insert sample courses
